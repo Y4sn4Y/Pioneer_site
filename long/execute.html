@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+    <title> pioneer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand"><img src="pioneer.jpg" alt="logo" class="logo_type"></a>
+              <a class="navbar-brand" href="#">pioneer</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#pioneer" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="pioneer">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      shoots
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="shoot.html">shoot</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="shoot_better.html">shoot_better</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      passes
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="pass.html">pass</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="pass_short.html">pass_short</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="execute.html" tabindex="-1" aria-disabled="true">execute</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="press.html" tabindex="-1" aria-disabled="true">press and block</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+       
+          <br><br>
+<div class="container">
+
+          
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#" >execute</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#pioneer"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        </nav>
+
+        <p>
+            In this part of the code bhv_basic_offensive_kick.cpp, we planned to separate the field into three parts. <br>
+            First part: wm.ball().pos().x >= 0 && wm.ball().pos().x < -36 <br>
+            Second part: wm.ball().pos().x >=-36 && wm.ball().pos().x < 36 <br>
+            Third part: wm.ball().pos().x >= 36 && wm.ball().pos().x <= 52.5 <br>
+            This division allows us to apply different instructions in different parts of the game. For example, when defending,
+            we can use "press" as our primary instruction for the players. When attacking, "shoot" can be the main focus. Based
+            on our knowledge of the opposing teams, we can adapt our strategy accordingly. For instance, when facing strong
+            teams, we may prioritize defensive orders to minimize potential losses. Conversely, when facing weaker teams, we can aim for a victory with more goals. In the middle part of the field, a specific type of shot is used. It targets a
+            sector the width of the goal and, if unopposed, results in a powerful and fast shot. This approach has two potential
+            outcomes: <br>
+             1. If successful, our team scores. <br>
+              2. If unsuccessful, the ball is moved away from our goal, benefiting our
+            team.
+        </p>
+
+        <img src="execute1.png" alt="ground" class="execute_img">
+        <img src="execute2.png" alt="ground" class="execute_img">
+
+
+</div>
+
+        
+        <footer class="container-fluid footer-pioneer mt-3">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <h3 class="footer-text-header">last news</h3>
+                <ul class="footer-ul">
+                  <li><a href="#">the game results</a></li>
+                  <li><a href="#">did we maneged to join ROBOCUP 2024</a></li>
+                  <li><a href="#">what we are up to next</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h3 class="footer-text-header">members</h3>
+                <ul class="footer-ul">
+                  <li><a href="#">Alin Kakaie</a></li>
+                  <li><a href="#">Yasna Kalantari</a></li>
+                  <li><a href="#">Mehsa Jeiboie</a></li>
+                  <li><a href="#">Sajede Rashidi</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h3 class="footer-text-header">background</h3>
+                  <p class="footer-text">
+                    last year the group was make out of six members but after some changer two of our amazing members dicided to leave to group. <br>
+                    this year we stared working on the team with four of our member and we added some functions and we deleted some of them to and all of them was for the teams good. <br>
+                    our team will try its best to reach to the upper places in this year of the competions.
+                  </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+</body>
+</html>

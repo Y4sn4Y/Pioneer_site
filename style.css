@@ -2,6 +2,10 @@
     width: 80px;
     height: 80px;
 }
+.w100{
+    width: 100%;
+    height: 100%;
+}
 .slid_img{
     width: 600px;
 }
@@ -14,19 +18,19 @@
 }
 .member_card1{
     font-size: 20px;
-    background-color: rgba(250, 173, 237, 0.40);
+    background-color: rgba(217, 182, 237);
 }
 .member_card2{
     font-size: 20px;
-    background-color: rgba(222, 155, 211, 0.40);
+    background-color: rgba(244, 184, 218);
 }
 .member_card3{
     font-size: 20px;
-    background-color: rgba(193, 135, 184, 0.40);
+    background-color: rgba(231, 251, 189);
 }
 .member_card4{
     font-size: 20px;
-    background-color: rgba(161, 114, 154, 0.40);
+    background-color: rgba(255, 255, 192);
 }
 .member_b{
     color: blueviolet;
@@ -36,12 +40,12 @@
     margin-left: 80px;
 }
 .footer-pioneer{
-    background-color: rgb(33, 139, 192);
-    border-top: solid rgb(0, 255, 42);
+    background-color: rgb(1, 62, 109);
+    border-top: solid rgb(170, 48, 0);
 }
 .footer-text-header{
     font-size: 35px;
-    color: rgb(117, 247, 145);
+    color: rgb(170, 48, 0);
 }
 footer ul{
     list-style-type: none;
@@ -53,14 +57,14 @@ footer ul li {
 }
 footer ul li a {
     text-decoration: none;
-    color: rgb(234, 255, 0);
+    color: rgb(68, 151, 0);
 }
 .footer-ul li a:hover{
-    color: rgb(245, 157, 85);
+    color: rgb(12, 217, 64);
 }
 .footer-text{
     font-size: 15px;
-    color: rgb(234, 255, 0);
+    color: rgb(68, 151, 0);
 }
 .single-title{
     font-size: 40px;
